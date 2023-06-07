@@ -1,3 +1,17 @@
+---
+layout: post
+title: Zookeeper入门
+categories: [Zookeeper]
+description: Zookeeper很重要！
+keywords: Zookeeper
+mermaid: false
+sequence: false
+flow: false
+mathjax: false
+mindmap: false
+mindmap2: false
+---
+
 # Zookeeper
 
 ## 简介及核心概念
@@ -835,7 +849,7 @@ public class BasicOperation {
 
 在连接 Zookeeper 时，Curator 提供了多种重试策略以满足各种需求，所有重试策略均继承自 `RetryPolicy` 接口，如下图：
 
-![curator-retry-policy](\picture\pictures\curator-retry-policy.png)
+![curator-retry-policy](/picture\pictures\curator-retry-policy.png)
 
 这些重试策略类主要分为以下两类：
 

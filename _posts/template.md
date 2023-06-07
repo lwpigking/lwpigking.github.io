@@ -1,9 +1,9 @@
 ---
 layout: post
-title: template page
-categories: [cate1, cate2]
-description: some word here
-keywords: keyword1, keyword2
+title: Hive具体详解
+categories: [Hive]
+description: Hive很重要！
+keywords: Hive
 mermaid: false
 sequence: false
 flow: false
@@ -12,4 +12,3 @@ mindmap: false
 mindmap2: false
 ---
 
-Content here
