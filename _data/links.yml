@@ -1,3 +1,11 @@
-- name: 码志（原作者）
+- name: 码志（网站原作者）
   url: http://mazhuang.org
+  src: life
+  
+- name: God-Of-BigData（文章涉及到的开源教程）
+  url: https://github.com/wangzhiwubigdata/God-Of-BigData
+  src: life
+ 
+- name: BigData-Notes（文章涉及到的开源教程）
+  url: https://github.com/heibaiying/BigData-Notes
   src: life
