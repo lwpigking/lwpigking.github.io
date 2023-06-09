@@ -1,7 +1,7 @@
 ---
 layout: fragment
 title: Flume日志工具
-tags: [Flune]
+tags: [Flume]
 description: some word here
 keywords: Flume
 mermaid: false
