@@ -3,7 +3,7 @@ layout: fragment
 title: Flink计算商品PV和UV
 tags: [Flink]
 description: 了解一下PV和UV 
-keywords: Flink, PV, UV, 商品
+keywords: Flink, PV, UV
 mermaid: false
 sequence: false
 flow: false

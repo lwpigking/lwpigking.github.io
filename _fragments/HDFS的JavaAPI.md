@@ -1,9 +1,9 @@
 ---
 layout: fragment
 title: HDFS Java-API
-tags: [HDFS, Java]
+tags: [HDFS]
 description: HDFS Java-API
-keywords: Hadoop, HDFS
+keywords: Hadoop
 mermaid: false
 sequence: false
 flow: false
