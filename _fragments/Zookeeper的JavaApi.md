@@ -1,9 +1,9 @@
 ---
 layout: fragment
 title: Zookeeper的JavaApi
-tags: [tag1, tag2]
+tags: [Zookeeper]
 description: some word here
-keywords: keyword1, keyword2
+keywords: Zookeeper
 mermaid: false
 sequence: false
 flow: false
