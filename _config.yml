@@ -5,7 +5,7 @@ baseurl:
 url: https://lwpigking.github.io/
 date_format: "ordinal"
 title: 龙湾养猪场
-subtitle: "个人大数据学习网站"
+subtitle: "个人学习网站"
 description: "龙湾养猪场的学习博客"
 keywords: 龙湾养猪场
 timezone: Asia/Shanghai
@@ -57,7 +57,7 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: 21大数据技术1 傅佳豪
+author: 龙湾养猪场
 organization: 
 organization_url: 
 github_username: lwpigking
