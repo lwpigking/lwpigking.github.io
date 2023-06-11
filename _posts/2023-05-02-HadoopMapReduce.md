@@ -1,9 +1,9 @@
 ---
 layout: post
 title: HadoopMapReduce详解
-categories: [Hadoop, MapReduce]
+categories: [Hadoop]
 description: HadoopMapReduce
-keywords: Hadoop, MapReduce
+keywords: Hadoop
 mermaid: false
 sequence: false
 flow: false

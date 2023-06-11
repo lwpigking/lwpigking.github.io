@@ -1,9 +1,9 @@
 ---
 layout: post
 title: HadoopYarn详解
-categories: [Hadoop, Yarn]
+categories: [Hadoop]
 description: HadoopYarn
-keywords: Hadoop, Yarn
+keywords: Hadoop
 mermaid: false
 sequence: false
 flow: false

@@ -1,9 +1,9 @@
 ---
 layout: post
 title: HadoopHDFS详解
-categories: [Hadoop, HDFS]
+categories: [Hadoop]
 description: HadoopHDFS
-keywords: Hadoop, HDFS
+keywords: Hadoop
 mermaid: false
 sequence: false
 flow: false

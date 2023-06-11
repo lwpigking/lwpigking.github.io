@@ -82,16 +82,6 @@ navs:
     mobile-hidden: true
 
   -
-    href: /open-source/
-    label: 开源
-    mobile-hidden: true
-
-
-  -
-    href: /wiki/
-    label: 维基
-
-  -
     href: /links/
     label: 链接
     mobile-hidden: true
