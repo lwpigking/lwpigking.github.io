@@ -86,9 +86,6 @@ navs:
     label: 开源
     mobile-hidden: true
 
-  -
-    href: /fragments/
-    label: 片段
 
   -
     href: /wiki/
