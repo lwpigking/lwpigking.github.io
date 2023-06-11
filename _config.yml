@@ -77,11 +77,6 @@ navs:
     label: 分类
 
   -
-    href: /archives/
-    label: 归档
-    mobile-hidden: true
-
-  -
     href: /links/
     label: 链接
     mobile-hidden: true
