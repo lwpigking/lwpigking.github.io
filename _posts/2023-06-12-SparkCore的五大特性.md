@@ -1,9 +1,9 @@
 ---
 layout: post
 title: SparkCore的五大特性
-categories: [Hive]
-description: Hive很重要！
-keywords: Hive
+categories: [Spark]
+description: Spark
+keywords: Spark
 mermaid: false
 sequence: false
 flow: false

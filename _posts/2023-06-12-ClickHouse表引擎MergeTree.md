@@ -1,9 +1,9 @@
 ---
 layout: post
 title: ClickHouse表引擎MergeTree
-categories: [Hive]
-description: Hive很重要！
-keywords: Hive
+categories: [ClickHouse]
+description: ClickHouse
+keywords: ClickHouse
 mermaid: false
 sequence: false
 flow: false
