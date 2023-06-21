@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Pandas透视表pivot和pivot_table
-categories: [数据分析, pandas]
-description: 数据分析,pandas
+title: 数据分析-Pandas透视表pivot和pivot_table
+categories: [数据分析]
+description: 数据分析
 keywords: 数据分析, pandas
 mermaid: false
 sequence: false
