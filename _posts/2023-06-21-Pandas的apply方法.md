@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 数据分析-Pandas的apply方法
-categories: [数据分析]
-description: 数据分析
-keywords: 数据分析
+title: Pandas的apply方法
+categories: [Pandas]
+description: Pandas
+keywords: Pandas
 mermaid: false
 sequence: false
 flow: false
