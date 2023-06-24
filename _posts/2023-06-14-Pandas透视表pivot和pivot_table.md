@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 数据分析-Pandas透视表pivot和pivot_table
-categories: [数据分析]
-description: 数据分析
-keywords: 数据分析, pandas
+title: Pandas透视表pivot和pivot_table
+categories: [Pandas]
+description: Pandas
+keywords: pandas
 mermaid: false
 sequence: false
 flow: false
@@ -11,8 +11,6 @@ mathjax: false
 mindmap: false
 mindmap2: false
 ---
-
-转载于joyfulpandas，略微修改。
 
 # pivot
 

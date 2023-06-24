@@ -22,7 +22,7 @@ mindmap2: false
 # hbase shell
 ```
 
-#### 1.1 获取帮助
+#### 获取帮助
 
 ```shell
 # 获取帮助
@@ -31,13 +31,13 @@ help
 help 'status'
 ```
 
-#### 1.2 查看服务器状态
+#### 查看服务器状态
 
 ```shell
 status
 ```
 
-#### 1.3 查看版本信息
+#### 查看版本信息
 
 ```shell
 version
@@ -48,13 +48,13 @@ version
 ### 关于表的操作
 
 
-#### 2.1 查看所有表
+#### 查看所有表
 
 ```shell
 list
 ```
 
-#### 2.2 创建表
+#### 创建表
 
  **命令格式**： create '表名称', '列族名称 1','列族名称 2','列名称 N'
 
@@ -63,7 +63,7 @@ list
 create 'Student','baseInfo','schoolInfo'
 ```
 
-#### 2.3 查看表的基本信息
+#### 查看表的基本信息
 
  **命令格式**：desc '表名'
 
@@ -71,7 +71,7 @@ create 'Student','baseInfo','schoolInfo'
 describe 'Student'
 ```
 
-#### 2.4 表的启用/禁用
+#### 表的启用/禁用
 
 enable 和 disable 可以启用/禁用这个表,is_enabled 和 is_disabled 来检查表是否被禁用
 
@@ -86,13 +86,13 @@ enable 'Student'
 is_enabled 'Student'
 ```
 
-#### 2.5 检查表是否存在
+#### 检查表是否存在
 
 ```shell
 exists 'Student'
 ```
 
-#### 2.6 删除表
+#### 删除表
 
 ```shell
 # 删除表前需要先禁用表
@@ -106,7 +106,7 @@ drop 'Student'
 ### 增删改
 
 
-#### 3.1 添加列族
+#### 添加列族
 
  **命令格式**： alter '表名', '列族名'
 
@@ -114,7 +114,7 @@ drop 'Student'
 alter 'Student', 'teacherInfo'
 ```
 
-#### 3.2 删除列族
+#### 删除列族
 
  **命令格式**：alter '表名', {NAME => '列族名', METHOD => 'delete'}
 
@@ -122,7 +122,7 @@ alter 'Student', 'teacherInfo'
 alter 'Student', {NAME => 'teacherInfo', METHOD => 'delete'}
 ```
 
-#### 3.3 更改列族存储版本的限制
+#### 更改列族存储版本的限制
 
 默认情况下，列族只存储一个版本的数据，如果需要存储多个版本的数据，则需要修改列族的属性。修改后可通过 `desc` 命令查看。
 
@@ -130,7 +130,7 @@ alter 'Student', {NAME => 'teacherInfo', METHOD => 'delete'}
 alter 'Student',{NAME=>'baseInfo',VERSIONS=>3}
 ```
 
-#### 3.4 插入数据
+#### 插入数据
 
  **命令格式**：put '表名', '行键','列族:列','值'
 
@@ -158,7 +158,7 @@ put 'Student', 'rowkey3','schoolInfo:localtion','New Haven'
 put 'Student', 'wrowkey4','baseInfo:name','maike-jack'
 ```
 
-#### 3.5 获取指定行、指定行中的列族、列的信息
+#### 获取指定行、指定行中的列族、列的信息
 
 ```shell
 # 获取指定行中所有列的数据信息
@@ -169,7 +169,7 @@ get 'Student','rowkey3','baseInfo'
 get 'Student','rowkey3','baseInfo:name'
 ```
 
-#### 3.6 删除指定行、指定行中的列
+#### 删除指定行、指定行中的列
 
 ```shell
 # 删除指定行
@@ -190,7 +190,7 @@ hbase 中访问数据有两种基本的方式：
 
 `scan` 可以设置 begin 和 end 参数来访问一个范围内所有的数据。get 本质上就是 begin 和 end 相等的一种特殊的 scan。
 
-#### 4.1 Get查询
+#### Get查询
 
 ```shell
 # 获取指定行中所有列的数据信息
@@ -201,19 +201,19 @@ get 'Student','rowkey3','baseInfo'
 get 'Student','rowkey3','baseInfo:name'
 ```
 
-#### 4.2 查询整表数据
+#### 查询整表数据
 
 ```shell
 scan 'Student'
 ```
 
-#### 4.3 查询指定列簇的数据
+#### 查询指定列簇的数据
 
 ```shell
 scan 'Student', {COLUMN=>'baseInfo'}
 ```
 
-#### 4.4  条件查询
+#### 条件查询
 
 ```shell
 # 查询指定列的数据
@@ -228,7 +228,7 @@ scan 'Student', {COLUMNS=> 'baseInfo:birthday'}
 scan 'Student', {COLUMNS=> 'baseInfo:name',STARTROW => 'rowkey2',STOPROW => 'wrowkey4',LIMIT=>2, VERSIONS=>3}
 ```
 
-#### 4.5  条件过滤
+#### 条件过滤
 
 Filter 可以设定一系列条件来进行过滤。如我们要查询值等于 24 的所有数据：
 
